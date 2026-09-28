@@ -1,0 +1,49 @@
+{
+  "checkedAt": "2026-09-25T14:39:38.485Z",
+  "accounts": [
+    {
+      "profile": "software",
+      "createdDays": 10,
+      "createdTasks": 100,
+      "totalDays": 11,
+      "preservedOtherDays": 1,
+      "ui": {
+        "crud": "passed",
+        "validationMessage": "passed",
+        "successMessages": "passed",
+        "networkErrorAndRetry": "passed",
+        "cancelDelete": "passed",
+        "cascade": "passed",
+        "logout": "passed"
+      },
+      "sampleDays": 10,
+      "sampleTasks": 100
+    },
+    {
+      "profile": "dentistry",
+      "createdDays": 10,
+      "createdTasks": 100,
+      "totalDays": 10,
+      "preservedOtherDays": 0,
+      "ui": {
+        "crud": "passed",
+        "validationMessage": "passed",
+        "successMessages": "passed",
+        "networkErrorAndRetry": "passed",
+        "cancelDelete": "passed",
+        "cascade": "passed",
+        "logout": "passed"
+      },
+      "sampleDays": 10,
+      "sampleTasks": 100
+    }
+  ],
+  "access": {
+    "rejectedRequests": 32,
+    "ownershipBothDirections": "passed",
+    "invalidDataBothAccounts": "passed",
+    "recordsUnchanged": "passed"
+  },
+  "sampleDateRange": ["2026-09-14", "2026-09-25"],
+  "credentialsStored": false
+}

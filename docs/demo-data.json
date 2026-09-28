@@ -1,0 +1,350 @@
+{
+  "dates": [
+    "2026-09-14",
+    "2026-09-15",
+    "2026-09-16",
+    "2026-09-17",
+    "2026-09-18",
+    "2026-09-21",
+    "2026-09-22",
+    "2026-09-23",
+    "2026-09-24",
+    "2026-09-25"
+  ],
+  "profiles": [
+    {
+      "key": "software",
+      "name": "Yazılım Mühendisliği Stajyeri",
+      "prefix": "Yazılım",
+      "days": [
+        {
+          "title": "Oryantasyon ve geliştirme ortamı",
+          "description": "Örnek staj kaydı: ekip süreçlerini tanıma, proje mimarisini inceleme ve yerel geliştirme ortamını hazırlama.",
+          "tasks": [
+            "Ekipteki geliştirici ve test rollerini tanı",
+            "Staj hedeflerini teknik danışmanla belirle",
+            "Projenin README dosyasını incele",
+            "Node.js ve npm sürümlerini kontrol et",
+            "Kod editörünün TypeScript desteğini hazırla",
+            "Git deposunu yerel ortama al",
+            "Ortam değişkeni örneklerini incele",
+            "Geliştirme sunucusunu başlat",
+            "İlk API sağlık kontrolünü çalıştır",
+            "Kurulumda karşılaşılan sorunları not et"
+          ]
+        },
+        {
+          "title": "Gereksinim analizi ve kullanıcı akışları",
+          "description": "Örnek staj kaydı: kullanıcı hikâyeleri, kabul ölçütleri ve temel ekran akışlarının yazılım gereksinimleriyle eşleştirilmesi.",
+          "tasks": [
+            "SRS belgesindeki işlevleri listele",
+            "Kullanıcı hikâyelerini görev panosuna aktar",
+            "Kayıt ve giriş akışını çiz",
+            "Gün oluşturma senaryosunu tanımla",
+            "Görev durumlarının iş kurallarını çıkar",
+            "Boş liste ve hata durumlarını belirle",
+            "Kabul ölçütlerini test senaryolarına dönüştür",
+            "Öncelikli gereksinimleri ekiple değerlendir",
+            "Ekran taslaklarını gözden geçir",
+            "Gereksinim sorularını danışmana ilet"
+          ]
+        },
+        {
+          "title": "Git ve kod inceleme süreci",
+          "description": "Örnek staj kaydı: dal yönetimi, anlamlı commit hazırlama ve değişiklikleri kod incelemesine sunma pratiği.",
+          "tasks": [
+            "Özellik geliştirme dalı oluştur",
+            "Git durumunu ve değişiklik farklarını incele",
+            "Anlamlı commit mesajı örnekleri hazırla",
+            "İlgili dosyaları commit için seç",
+            "Merge conflict çözümünü örnek depoda dene",
+            "Pull request açıklamasını hazırla",
+            "Kod inceleme kontrol listesini oku",
+            "Geri bildirimleri küçük değişikliklerle uygula",
+            "Gizli dosyaların gitignore kapsamını kontrol et",
+            "Dal birleştirme sürecini belgele"
+          ]
+        },
+        {
+          "title": "React ve TypeScript arayüzü",
+          "description": "Örnek staj kaydı: bileşen sorumlulukları, tip güvenliği ve yeniden kullanılabilir form elemanları üzerinde çalışma.",
+          "tasks": [
+            "Sayfa ve ortak bileşenleri ayır",
+            "Props tiplerini TypeScript ile tanımla",
+            "Form girdilerini state ile yönet",
+            "React Router yollarını düzenle",
+            "Görünür alan etiketlerini ekle",
+            "Yüklenme durumunu tasarla",
+            "Hata mesajlarını ilgili alanlara bağla",
+            "Tekrar gönderim engelini dene",
+            "Mobil yerleşimi kontrol et",
+            "Klavye ile gezinme akışını test et"
+          ]
+        },
+        {
+          "title": "NestJS ve REST API geliştirme",
+          "description": "Örnek staj kaydı: controller, service ve repository sorumluluklarıyla REST uçlarının hazırlanması.",
+          "tasks": [
+            "NestJS modül yapısını incele",
+            "Controller içinde HTTP yollarını tanımla",
+            "İstek DTO alanlarını belirle",
+            "Sunucu doğrulama kurallarını ekle",
+            "Servis iş kurallarını ayır",
+            "Repository sözleşmesini oluştur",
+            "Bağımlılık enjeksiyonunu bağla",
+            "HTTP durum kodlarını gözden geçir",
+            "Ortak hata yanıtını doğrula",
+            "API sözleşmesine örnek istek ekle"
+          ]
+        },
+        {
+          "title": "Prisma ve SQLite veri modeli",
+          "description": "Örnek staj kaydı: kullanıcı, gün ve görev ilişkilerini modelleme; migration ve veri bütünlüğü kontrolleri.",
+          "tasks": [
+            "Prisma şemasındaki modelleri incele",
+            "Birden çoğa ilişkileri çiz",
+            "E-posta benzersizlik kısıtını kontrol et",
+            "Dış anahtar ilişkilerini doğrula",
+            "Migration dosyasını gözden geçir",
+            "Temiz test veritabanını oluştur",
+            "Sorgu indekslerini incele",
+            "Prisma Studio ile örnek kayıtları görüntüle",
+            "Bağlı silme davranışını test et",
+            "Veri kalıcılığı kontrolünü belgele"
+          ]
+        },
+        {
+          "title": "Kimlik doğrulama ve erişim sınırları",
+          "description": "Örnek staj kaydı: parola özeti, JWT yaşam döngüsü ve kullanıcıya göre sınırlandırılmış veri erişimi.",
+          "tasks": [
+            "Parola özeti ile düz metin farkını açıkla",
+            "Argon2id yapılandırmasını incele",
+            "JWT süre sonu senaryosunu çalıştır",
+            "Korumalı API uçlarını listele",
+            "Oturumsuz isteklerin reddini doğrula",
+            "İki hesapla gün sahipliğini test et",
+            "Görevden bağlı güne sahiplik kontrolünü incele",
+            "Kullanıcı yanıtında gizli alan olmadığını doğrula",
+            "Çıkış sonrası yönlendirmeyi dene",
+            "Güvenlik testlerinin sonuçlarını kaydet"
+          ]
+        },
+        {
+          "title": "Test otomasyonu ve hata ayıklama",
+          "description": "Örnek staj kaydı: birim, entegrasyon ve tarayıcı testleri ile hata durumlarının yeniden üretilebilir hale getirilmesi.",
+          "tasks": [
+            "Birim testi için sınır değerleri seç",
+            "API entegrasyon testini çalıştır",
+            "Playwright ile giriş akışını dene",
+            "Geçersiz tarih girdilerini gönder",
+            "Ağ kesintisi senaryosunu canlandır",
+            "Silme onayının iptalini test et",
+            "Test verisini geliştirme verisinden ayır",
+            "Başarısız testin nedenini araştır",
+            "Düzeltme sonrası regresyon testini çalıştır",
+            "Test raporunu ekip ile gözden geçir"
+          ]
+        },
+        {
+          "title": "Kod kalitesi ve performans incelemesi",
+          "description": "Örnek staj kaydı: kod okunabilirliği, sorgu kapsamı ve arayüz davranışlarının ölçülü biçimde iyileştirilmesi.",
+          "tasks": [
+            "TypeScript strict kontrolünü çalıştır",
+            "ESLint uyarılarını değerlendir",
+            "Prettier biçim kontrolünü çalıştır",
+            "Tekrarlanan doğrulamaları ortaklaştır",
+            "Gereksiz API isteklerini incele",
+            "Liste sorgusunun sıralamasını doğrula",
+            "Uzun başlıklarla taşma kontrolü yap",
+            "Hata mesajlarının anlaşılabilirliğini değerlendir",
+            "Kullanılmayan kodu gözden geçir",
+            "Teknik borç notlarını hazırla"
+          ]
+        },
+        {
+          "title": "Teslim hazırlığı ve teknik sunum",
+          "description": "Örnek staj kaydı: temiz kurulumun tekrarı, uçtan uca gösterim ve yapılan teknik seçimlerin açıklanması.",
+          "tasks": [
+            "Temiz kurulum adımlarını tekrar uygula",
+            "Üretim derlemesini oluştur",
+            "Tüm otomatik testleri çalıştır",
+            "README kurulum bölümünü güncelle",
+            "API örneklerini son kez kontrol et",
+            "İki hesaplı gösterim verisini hazırla",
+            "Bilinen sınırlamaları belgele",
+            "Mimari kararların gerekçelerini özetle",
+            "Uçtan uca gösterimi prova et",
+            "Staj değerlendirme sunumunu hazırla"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "dentistry",
+      "name": "Diş Hekimliği Stajyeri",
+      "prefix": "Diş Hekimliği",
+      "days": [
+        {
+          "title": "Klinik oryantasyon ve mesleki etik",
+          "description": "Kurgusal eğitim kaydı: klinik işleyişini ve öğrenci sorumluluklarını gözetmen eşliğinde tanıma. Hasta bilgisi içermez.",
+          "tasks": [
+            "Klinik birimlerinin işleyişini tanı",
+            "Sorumlu gözetmen ve ekip rollerini öğren",
+            "Stajyerin görev sınırlarını gözden geçir",
+            "Hasta mahremiyeti kurallarını incele",
+            "Bilgilendirilmiş onam sürecini gözlemle",
+            "Klinik randevu akışını takip et",
+            "El hijyeni eğitimine katıl",
+            "Kişisel koruyucu ekipman alanını tanı",
+            "Klinik acil durum iletişim planını oku",
+            "Oryantasyon notlarını staj günlüğüne yaz"
+          ]
+        },
+        {
+          "title": "Enfeksiyon kontrolü ve sterilizasyon",
+          "description": "Kurgusal eğitim kaydı: kurumun enfeksiyon kontrolü süreçlerini eğitim materyalleri ve gözetmen açıklamalarıyla inceleme.",
+          "tasks": [
+            "Temiz ve kirli alan ayrımını gözlemle",
+            "Sterilizasyon biriminin iş akışını izle",
+            "Alet paketleme kayıtlarını incele",
+            "Sterilizasyon izlenebilirliğini öğren",
+            "Yüzey temizliği kontrol listesini oku",
+            "Tek kullanımlık malzeme yönetimini gözlemle",
+            "Kesici delici atık alanını tanı",
+            "Atık ayrıştırma işaretlerini incele",
+            "Koruyucu ekipman eğitimini tekrar et",
+            "Enfeksiyon kontrolü gözlemlerini özetle"
+          ]
+        },
+        {
+          "title": "Anamnez ve ağız içi muayene gözlemi",
+          "description": "Kurgusal eğitim kaydı: gerçek hasta verisi kaydetmeden anamnez ve muayene dokümantasyonunun eğitim amaçlı incelenmesi.",
+          "tasks": [
+            "Örnek anamnez formunun bölümlerini incele",
+            "Tıbbi öykü sorularının amacını öğren",
+            "Alerji bilgisinin kayıt akışını gözlemle",
+            "Hastayla iletişim biçimini değerlendir",
+            "Diş numaralandırma sistemini tekrar et",
+            "Odontogram örneklerini incele",
+            "Ağız içi muayene sırasını gözlemle",
+            "Muayene bulgularının kayıt biçimini öğren",
+            "Mahremiyet içermeyen vaka notu hazırla",
+            "Muayene gözlemlerini gözetmenle değerlendir"
+          ]
+        },
+        {
+          "title": "Dental radyoloji ve görüntü kayıtları",
+          "description": "Kurgusal eğitim kaydı: radyoloji biriminin kayıt ve güvenlik süreçlerini gözlemleme; klinik karar vermeden örnek görüntü terminolojisini öğrenme.",
+          "tasks": [
+            "Radyoloji biriminin işleyişini gözlemle",
+            "Radyasyon güvenliği eğitimine katıl",
+            "Panoramik görüntü terminolojisini incele",
+            "Periapikal görüntü örneklerini gözden geçir",
+            "Görüntü istem ve onam akışını öğren",
+            "Görüntü kalite değerlendirmesini izle",
+            "Örnek görüntüde anatomik adları tekrar et",
+            "Dijital arşiv erişim kurallarını incele",
+            "Görüntü kayıtlarında mahremiyeti değerlendir",
+            "Radyoloji gözlem raporunu yaz"
+          ]
+        },
+        {
+          "title": "Restoratif diş hekimliği gözlemi",
+          "description": "Kurgusal eğitim kaydı: restoratif birimde kullanılan kavramları ve malzeme organizasyonunu gözetmen eşliğinde tanıma.",
+          "tasks": [
+            "Restoratif birimin çalışma düzenini tanı",
+            "Diş çürüğü terminolojisini tekrar et",
+            "Kompozit materyal türlerini eğitimde incele",
+            "Restorasyon malzeme kayıtlarını gözlemle",
+            "İzolasyon kavramını danışmanla değerlendir",
+            "Renk seçimi görüşmesini gözlemle",
+            "Restorasyon aşamalarını vaka sunumundan izle",
+            "Hasta bilgilendirme görüşmesini takip et",
+            "Kullanılan aletlerin adlarını not et",
+            "Restoratif gözlem günlüğünü tamamla"
+          ]
+        },
+        {
+          "title": "Endodonti birimi ve vaka tartışması",
+          "description": "Kurgusal eğitim kaydı: endodonti kavramlarını eğitim sunumları üzerinden öğrenme; tedavi uygulaması veya hasta özelinde öneri içermez.",
+          "tasks": [
+            "Endodonti biriminin iş akışını tanı",
+            "Pulpa ve kök kanalı anatomisini tekrar et",
+            "Endodontik tanı terimlerini incele",
+            "Örnek vaka sunumunu dinle",
+            "Kanal tedavisi aşamalarını gözlem notuna aktar",
+            "Endodontik aletlerin adlarını öğren",
+            "Materyal izlenebilirlik kayıtlarını incele",
+            "Aseptik çalışma düzenini gözlemle",
+            "Takip randevusu kayıt sürecini öğren",
+            "Vaka tartışması sorularını gözetmene yönelt"
+          ]
+        },
+        {
+          "title": "Periodontoloji ve koruyucu yaklaşım",
+          "description": "Kurgusal eğitim kaydı: periodontal kayıtları ve hasta eğitimi görüşmelerini mahremiyeti koruyarak gözlemleme.",
+          "tasks": [
+            "Periodontal anatomi terimlerini tekrar et",
+            "Gingiva değerlendirme formunu incele",
+            "Periodontal indekslerin amacını öğren",
+            "Örnek periodontal çizelgeyi gözden geçir",
+            "Plak kontrolü eğitim materyalini incele",
+            "Ağız hijyeni görüşmesini gözlemle",
+            "Koruyucu bakım randevu akışını takip et",
+            "Periodontal alet adlarını not et",
+            "Hasta motivasyonu iletişimini değerlendir",
+            "Periodontoloji gözlemlerini özetle"
+          ]
+        },
+        {
+          "title": "Protetik diş tedavisi ve laboratuvar iletişimi",
+          "description": "Kurgusal eğitim kaydı: protetik iş akışını ve klinik-laboratuvar iletişimini örnek formlar üzerinden inceleme.",
+          "tasks": [
+            "Sabit ve hareketli protez kavramlarını tekrar et",
+            "Protetik birimin randevu akışını izle",
+            "Ölçü materyallerini eğitim ortamında tanı",
+            "Dijital ölçü iş akışını gözlemle",
+            "Laboratuvar istem formunu incele",
+            "Örnek model etiketleme düzenini öğren",
+            "Prova randevusu dokümantasyonunu gözlemle",
+            "Materyal ve renk iletişimini değerlendir",
+            "Teslim sonrası takip kayıtlarını incele",
+            "Laboratuvar iletişimi notlarını tamamla"
+          ]
+        },
+        {
+          "title": "Pedodonti ve ortodonti gözlemleri",
+          "description": "Kurgusal eğitim kaydı: çocuk hastalarla iletişim ve ortodontik kayıt süreçlerini gözetmen eşliğinde gözlemleme.",
+          "tasks": [
+            "Çocuk hastayla iletişim eğitimini izle",
+            "Veli bilgilendirme akışını gözlemle",
+            "Süt ve daimi dişlenme terimlerini tekrar et",
+            "Koruyucu pedodonti materyallerini incele",
+            "Klinik ortamına uyum yaklaşımını gözlemle",
+            "Ortodontik kayıt türlerini öğren",
+            "Model ve fotoğraf arşiv kurallarını incele",
+            "Ortodonti vaka tartışmasına katıl",
+            "Takip randevularının organizasyonunu izle",
+            "Gözlemleri mahremiyet içermeden kaydet"
+          ]
+        },
+        {
+          "title": "Vaka sunumu ve staj değerlendirmesi",
+          "description": "Kurgusal eğitim kaydı: gözlem notlarını düzenleme, etik sınırları değerlendirme ve gözetmene eğitim amaçlı sunum hazırlama.",
+          "tasks": [
+            "Günlük gözlem notlarını düzenle",
+            "Kişisel veri içermeyen vaka özeti hazırla",
+            "Öğrenilen klinik terimleri listele",
+            "Enfeksiyon kontrolü kontrol listesini tekrar et",
+            "Klinik ekip iletişimini değerlendir",
+            "Gözlem ve uygulama sınırlarını raporla",
+            "Eksik öğrenme hedeflerini belirle",
+            "Gözetmen geri bildirimlerini kaydet",
+            "Staj sunumunu prova et",
+            "Son değerlendirme raporunu tamamla"
+          ]
+        }
+      ]
+    }
+  ]
+}

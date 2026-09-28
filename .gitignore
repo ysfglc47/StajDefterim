@@ -1,0 +1,16 @@
+node_modules/
+dist/
+coverage/
+.env
+.env.*
+!.env.example
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+backend/src/generated/
+.npm-cache/
+*.log
+*.tsbuildinfo
+test-results/
+playwright-report/
